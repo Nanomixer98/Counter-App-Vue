@@ -1,5 +1,7 @@
 # 03-fundamentos
 
+## Leasons learned
+
 ## Project setup
 ```
 npm install
