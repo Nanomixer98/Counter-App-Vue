@@ -1,6 +1,9 @@
 # 03-fundamentos
 
 ## Leasons learned
+- Use of props
+- Send props to components
+- Define config for props
 
 ## Project setup
 ```
