@@ -4,6 +4,8 @@
 - Use of props
 - Send props to components
 - Define config for props
+- Simple unit testing
+- Snapshot unit testing
 
 ## Project setup
 ```
@@ -23,6 +25,9 @@ npm run build
 ### Run your unit tests
 ```
 npm run test:unit
+
+// To update snapshot
+npm run test:unit -- -u
 ```
 
 ### Customize configuration
