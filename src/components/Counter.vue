@@ -1,12 +1,12 @@
 <template>
   <h2>{{ customTitle }}</h2>
   <p> {{ counter }} <sup>2</sup> = {{ getSquareValue }}</p>
+  <p data-testid="counter">{{ counter }}</p>
 
     <div class="buttons">
         <button @click="increase()">+1</button>
         <button @click="decrease()">-1</button>
     </div>
-  <p data-testid="counter">{{ counter }}</p>
 </template>
 
 <script>
@@ -38,7 +38,7 @@ export default {
     },
     computed: {
         getSquareValue() {
-            console.log('computed square counter');
+            // console.log('computed square counter');
             return this.counter * this.counter;
         },
         customTitle() {

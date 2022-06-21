@@ -5,7 +5,10 @@
 - Send props to components
 - Define config for props
 - Simple unit testing
-- Snapshot unit testing
+- Validate snapshot in unit testing
+- Simulate click event in unit testing
+- Evaluate props in unit testing
+- Test with mock
 
 ## Project setup
 ```
