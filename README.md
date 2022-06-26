@@ -8,7 +8,8 @@
 - Validate snapshot in unit testing
 - Simulate click event in unit testing
 - Evaluate props in unit testing
-- Test with mock
+- Test with mocks
+- Access to Vue methods in unit testing
 
 ## Project setup
 ```
